@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo bonito */
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.banner img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px; /* Estilo de caja con bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0 auto; /* Centra el navbar horizontalmente */
+    padding: 0;
+    display: table;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto; /* Centra la caja horizontalmente */
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
